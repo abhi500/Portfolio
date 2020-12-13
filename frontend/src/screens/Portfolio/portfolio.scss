@@ -1,0 +1,15 @@
+.portfolio-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FF7426;
+    
+    &--size{
+        min-height: 100vh;
+    }
+
+    &--theme{
+        background-color: #FFF5F0;
+    }
+}
