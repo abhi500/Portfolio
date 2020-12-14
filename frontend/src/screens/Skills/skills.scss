@@ -32,8 +32,8 @@
     &__item{
 
         &--size{
-            height: auto;
-            width: auto;
+            min-width: 200px;
+            min-height: 200px;
         }
     }
 

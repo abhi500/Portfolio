@@ -23,7 +23,7 @@ export default class AboutComponent extends Component{
     }
 
     getListItem(index, menu){
-        return <li key={index}>
+        return <li key={index} className="menu-item menu-item--theme">
             <a href={`#${menu.id}`} className="menu">{menu.name}</a>
         </li>
     }
@@ -34,6 +34,10 @@ export default class AboutComponent extends Component{
             <div className="landing-container landing-container--size" id="landing-section">
                 <div className="landing-container__left landing-container__left--theme landing-container__left--size"></div>  
                 <div className="landing-container__right landing-container__right--theme landing-container__right--size">
+                    <div className="navbar navbar--size navbar--theme">
+                            <img className="navbar__icon navbar__icon--size" 
+                                src="https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png"/>
+                    </div>
                     <ul className="menus menus--size">{this.getMenusList()}</ul>
                     <div className="center center--size">
                         <h1>WEB DEVELOPER</h1>

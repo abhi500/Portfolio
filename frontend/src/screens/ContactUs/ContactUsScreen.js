@@ -13,13 +13,13 @@ export default class ContactUsScreen extends Component{
                         className="contact__fields">
                         <input  type="text" 
                                 placeholder="Full Name" 
-                                className="contact__name mt4"/>
+                                className="contact__name input-size mt4"/>
                         <input  type="email" 
                                 placeholder="Email" 
-                                className="contact__email mt4"/>
+                                className="contact__email input-size mt4"/>
                         <input  type="text" 
                                 placeholder="Contact" 
-                                className="contact__number mt4"/>
+                                className="contact__number input-size mt4"/>
                         <textarea name="message" 
                                     id="message" 
                                     placeholder="Message" 
