@@ -13,7 +13,7 @@ ReactDom.render(
             <Route path="/" component={HomeScreen} exact/>
             <Route path="/about" component={AboutComponent}/>
             <Route path="/shop" component={ErrorComponent}/>
-            <Route component={ErrorComponent}/>
+            <Route component={HomeScreen}/>
         </Switch>
     </BrowserRouter>,
     document.getElementById('app')
