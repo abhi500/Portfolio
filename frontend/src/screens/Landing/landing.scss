@@ -9,6 +9,7 @@
         }
 
         &--size{
+            // min-width: 450px;
             width: 50%;
             height: 100vh;
         }
@@ -22,7 +23,8 @@
         }
 
         &--size{
-            width: 50%;
+            min-width: 450px;
+            width: auto;
             height: 100vh;
         }
     }
@@ -32,6 +34,7 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
+    overflow-x: scroll;
 
     &--size{
         width: 100%;
@@ -59,5 +62,89 @@
     h1{
         color: #FF7426;
         margin-top: 20px;
+    }
+}
+
+.navbar{
+    display: none;
+    justify-content: end;
+    align-items: center;
+
+    &--size{
+        width: 100%;
+        height: 60px;
+    }
+
+    &--theme{
+        background-color: #FF7426;
+    }
+
+    &__icon{
+        cursor: pointer;
+
+        &--size{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .landing-container{
+        flex-direction: column;
+
+        &__right{
+            display: flex;
+            flex-direction: column;
+            // background-color: #FF7426;
+
+        }
+
+        &__left{
+            display: none;
+             background-color: red;
+        }
+    }
+
+    .menu{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .landing-container{
+        &__right{
+            padding: 0px;
+        }
+    }
+    
+    .menus{
+        margin: 10px;
+    }
+
+    .menu-item{
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+
+
+        &--theme{
+            background-color: #FF7426;
+        }
+    }
+
+    .menus{
+        overflow-x: scroll;
+    }
+
+    .menu{
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .navbar{
+        display: flex;
     }
 }
