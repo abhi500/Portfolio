@@ -30,7 +30,6 @@ export default class AboutComponent extends Component{
 
 
     render(){
-      
         return (
             <div className="landing-container landing-container--size" id="landing-section">
                 <div className="landing-container__left landing-container__left--theme landing-container__left--size"></div>  

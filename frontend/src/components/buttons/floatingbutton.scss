@@ -1,0 +1,17 @@
+.floatingbutton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 25px;
+    margin: 50px;
+    cursor: pointer;
+
+    &--size{
+        height: 50px;
+        width: 50px;
+    }
+
+    &--theme{
+        background-color: #FF7426;
+    }
+}

@@ -5,14 +5,18 @@ import PortfolioScreen from './Portfolio/PortfolioScreen.js';
 import SkillScreen from './Skills/SkillsScreen';
 import ContactUsScreen from './ContactUs/ContactUsScreen';
 
+import FloatingButton from '../components/buttons/FloatingButton';
+
 export default class HomeScreen extends Component{
+
     render(){
         return (
             <div>
-                <LandingScreen></LandingScreen>
-                <PortfolioScreen></PortfolioScreen>
-                <SkillScreen></SkillScreen>
-                <ContactUsScreen></ContactUsScreen>
+                <LandingScreen/>
+                <PortfolioScreen/>
+                <SkillScreen/>
+                <ContactUsScreen/>
+                <FloatingButton/>
             </div>
         )
     }
