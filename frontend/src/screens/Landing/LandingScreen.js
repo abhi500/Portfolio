@@ -36,7 +36,7 @@ export default class AboutComponent extends Component{
                 <div className="landing-container__right landing-container__right--theme landing-container__right--size">
                     <div className="navbar navbar--size navbar--theme">
                             <img className="navbar__icon navbar__icon--size" 
-                                src="/frontend/assets/menu.png"/>
+                                src="./frontend/assets/menu.png"/>
                     </div>
                     <ul className="menus menus--size">{this.getMenusList()}</ul>
                     <div className="center center--size">
