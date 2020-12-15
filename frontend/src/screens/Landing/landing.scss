@@ -67,7 +67,7 @@
 
 .navbar{
     display: none;
-    justify-content: end;
+
     align-items: center;
 
     &--size{
@@ -81,10 +81,12 @@
 
     &__icon{
         cursor: pointer;
+        margin-left: auto;
+        margin-right: 15px;
 
         &--size{
-            width: 40px;
-            height: 40px;
+            width: 18px;
+            height: 18px;
         }
     }
 }

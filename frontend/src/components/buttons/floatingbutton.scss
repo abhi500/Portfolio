@@ -3,8 +3,12 @@
     bottom: 0px;
     right: 0px;
     border-radius: 25px;
-    margin: 50px;
+    margin: 30px;
     cursor: pointer;
+    background-image: url('/frontend/assets/moveup.png');
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
 
     &--size{
         height: 50px;
@@ -12,6 +16,6 @@
     }
 
     &--theme{
-        background-color: #FF7426;
+        // background-color: #FF7426;
     }
 }
